@@ -11,6 +11,9 @@ jobs:
       contents: write
 
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
       - name: Buildozer-Kivy-Apk-Creator
         uses: wildspider57389928/Buildozer-Kivy-APK_Creator@2.0.0
    
