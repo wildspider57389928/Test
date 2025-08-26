@@ -1,10 +1,10 @@
 [app]
 
 # (str) Title of your application
-title = بازی جدول ضرب
+title = ماشین حساب
 
 # (str) Package name
-package.name = jadvalzarb
+package.name = calculator
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.mbb
@@ -16,7 +16,7 @@ source.dir = .
 source.include_exts = ttf,txt,py,kv,jpg,png,mp3,json
 
 # (list) List of inclusions using pattern matching
-source.include_patterns = Assets/*,Data/*
+#source.include_patterns = Assets/*,Data/*
 
 # (list) Source files to exclude (let empty to not exclude anything)
 #source.exclude_exts = spec
@@ -44,10 +44,10 @@ requirements = python3,kivy,python-bidi==0.4.2,arabic_reshaper,android,plyer
 # requirements.source.kivy = ../../kivy
 
 # (str) Presplash of the application
-presplash.filename = %(source.dir)s/transparent.png
+#presplash.filename = %(source.dir)s/transparent.png
 
 # (str) Icon of the application
-icon.filename = %(source.dir)s/icon.png
+#icon.filename = %(source.dir)s/icon.png
 
 # (list) Supported orientations
 # Valid options are: landscape, portrait, portrait-reverse or landscape-reverse
