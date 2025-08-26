@@ -12,5 +12,5 @@ jobs:
 
     steps:
       - name: Buildozer-Kivy-Apk-Creator
-        uses: wildspider57389928/Buildozer-Kivy-APK_Creator@1.0.0
+        uses: wildspider57389928/Buildozer-Kivy-APK_Creator@2.0.0
    
