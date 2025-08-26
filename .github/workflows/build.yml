@@ -15,5 +15,5 @@ jobs:
         uses: actions/checkout@v4
         
       - name: Buildozer-Kivy-Apk-Creator
-        uses: wildspider57389928/Buildozer-Kivy-APK_Creator@2.0.0
+        uses: wildspider57389928/Buildozer-Kivy-APK_Creator@3.0.0
    
